@@ -37,8 +37,14 @@ The Green Grocers is a web application built using React and React-Bootstrap. It
    cd GreenGrocers
 
 3. Install dependencies:
-  ```sh
-  npm install
+   ```sh
+   npm install
+
+4. Start the development server:
+   ```sh
+   npm start
+
+Open your browser and navigate to http://localhost:3000.
 
 
 
