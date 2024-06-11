@@ -89,22 +89,6 @@ public class CustomerController {
         return new ResponseEntity<>(customers, HttpStatus.OK);
     }
     
-    /**
-     * Change customer password.
-     * This method handles PUT requests to "/api/customers/change-password/{customerId}".
-     * It changes the password for the customer with the given ID using the provided password details,
-     * and returns a response message with an HTTP status of OK.
-     * 
-     * @param passwordChangeDto The DTO containing the old and new password details
-     * @param customerId The ID of the customer whose password to change
-     * @return ResponseEntity containing the response message and HTTP status OK
-     */
-    // @PutMapping("/change-password/{customerId}")
-    // public ResponseEntity<String> changePassword(@RequestBody PasswordChangeDto passwordChangeDto,
-    //      @PathVariable long customerId) {
-    //     String response = customerService.changePassword(customerId, passwordChangeDto);
-    //     return new ResponseEntity<>(response,HttpStatus.OK);
-    // }
     
     /**
      * Delete customer by ID.

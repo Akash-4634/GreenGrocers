@@ -39,7 +39,7 @@ export const CartProvider = ({ children }) => {
         if (fetchedCart.items.length === 0) {
           localStorage.removeItem('cart');
         }
-        setCart(fetchedCart);
+        // setCart(fetchedCart);
       } catch (error) {
         console.error('Error fetching cart:', error);
       }

@@ -20,8 +20,5 @@ public interface CustomerService {
 	
 	// Search customers by name, email (partial match)
     List<Customer> searchCustomers(String searchTerm);
-	
-    // Change password by customer Id
-//	String changePassword(long customerId, PasswordChangeDto passwordChangeDto);
-    
+
 }

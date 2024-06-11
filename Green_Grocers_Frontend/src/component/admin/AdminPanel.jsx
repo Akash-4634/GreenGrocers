@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { allproductList, getAllCustomers } from '../../service/AdminService';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUsers, faShoppingCart, faDollarSign, faBox, faBoxes, faMoneyCheckAlt, faTruckLoading } from '@fortawesome/free-solid-svg-icons';
+import { faUsers, faShoppingCart, faBox, faBoxes, faMoneyCheckAlt, faTruckLoading } from '@fortawesome/free-solid-svg-icons';
 import { paymentList } from '../../service/PaymentService';
 import { useNavigate } from 'react-router-dom';
 

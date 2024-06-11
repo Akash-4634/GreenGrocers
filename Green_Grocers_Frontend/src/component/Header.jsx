@@ -115,7 +115,7 @@ function Header({isAdmin}) {
                         <div className="dropdown-menu dropdown-menu-right" aria-labelledby="profileDropdown">
                             <NavLink exact to="/profile" className="dropdown-item">Profile</NavLink>
                             <div className="dropdown-divider"></div>
-                            <a className="dropdown-item" href="#">Logout</a>
+                            <a className="dropdown-item" href="/">Logout</a>
                         </div>
                     </li>
                 </ul>}

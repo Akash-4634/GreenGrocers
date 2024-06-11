@@ -19,13 +19,14 @@ import com.cg.freshfarmonlinestore.entity.Address;
 import com.cg.freshfarmonlinestore.service.AddressService;
 
 import jakarta.validation.Valid;
+import lombok.AllArgsConstructor;
 
 @CrossOrigin("*")
 @RestController
+@AllArgsConstructor
 @RequestMapping("/api/addresses")
 public class AddressController { 
  
-    @Autowired
     private AddressService addressService;
 
     /**

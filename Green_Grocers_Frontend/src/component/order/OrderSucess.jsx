@@ -8,7 +8,9 @@ export default function OrderSuccess() {
  
   function handleClick(e) {
     e.preventDefault();
+    
     navigator("/");
+    window.location.reload(); 
   }
  
   return (
