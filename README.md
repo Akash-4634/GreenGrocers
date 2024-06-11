@@ -35,7 +35,7 @@ The Green Grocers is a web application built using React and React-Bootstrap. It
 Navigate to the project directory:
 
   ```sh
-cd customer-management-system
+  customer-management-system
 
 Install dependencies:
 
